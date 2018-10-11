@@ -35,10 +35,7 @@
    }
    void show()
    {
-     int R = (int)(Math.random()*250)+100;
-     int G = (int)(Math.random()*150)+100;
-     int B = (int)(Math.random()*150)+100;
-     fill((int)(Math.random()*250)+100,(int)(Math.random()*250)+100,(int)(Math.random()*250)+100);
+     fill((int)(Math.random()*250),(int)(Math.random()*250),(int)(Math.random()*250);
      ellipse(myX,myY,15,15);
      
      if (mouseX > myX)
