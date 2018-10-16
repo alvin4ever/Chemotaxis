@@ -2,7 +2,7 @@
  void setup()   
  {     
    size(500,500);
-   colony = new Bacteria[10];
+   colony = new Bacteria[50];
    for (int i = 0; i < colony.length; i++)
    {
      colony[i] = new Bacteria();
@@ -35,7 +35,7 @@
    }
    void show()
    {
-     fill((int)(Math.random()*250),(int)(Math.random()*250),(int)(Math.random()*250);
+     fill((int)(Math.random()*250),(int)(Math.random()*250),(int)(Math.random()*250));
      ellipse(myX,myY,15,15);
      
      if (mouseX > myX)
@@ -47,6 +47,6 @@
        myY = myY + (int)(Math.random()*5)-1;
      else
        myY = myY + (int)(Math.random()*5)-3;
-     ellipse(mouseX,mouseY,30,30);
+     ellipse(mouseX,mouseY,8,8);
    }
  }    
